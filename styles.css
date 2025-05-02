@@ -11,9 +11,13 @@
 .navbar {
   display: flex;
   width: 100%;
+  background-color: white;
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  position: fixed;
+  top: 0px;
+  
 }
 .header-left {
   display: flex;
@@ -75,6 +79,10 @@ aside {
   align-items: center;
   width: 60px;
   height: 100vh;
+  position: fixed;
+  left: 5px;
+  top: 70px;
+  background-color: white;
 }
 aside i {
   cursor: pointer;
@@ -88,6 +96,11 @@ aside p {
 .nav2 {
   display: flex;
   width: 94vw;
+  background-color: white;
+  position: fixed;
+  top: 70px;
+  left: 80px;
+
 }
 
 .nav2 button {
@@ -103,6 +116,10 @@ aside p {
   width: 94vw;
   height: auto;
   margin-top: 20px;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  z-index: -1;
 }
 .video_cards {
   display: flex;
@@ -134,10 +151,15 @@ aside p {
   display: flex;
   align-items: center;
   margin: 0px 0px 20px 15px;
+  position: relative;
+  top: 80px;
+  left: 70px;
+  z-index: -1;
 }
 
 .shorts_title img{
   margin-right: 10px;
+  
 }
 
 .shorts_videos{
@@ -146,6 +168,10 @@ aside p {
   height: 100vh;
   gap: 20px;
   margin-left: 10px;
+  position: relative;
+  left: 70px;
+  top: 80px;
+  z-index: -1;
 }
 
 .shorts{
